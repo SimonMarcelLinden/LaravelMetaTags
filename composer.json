@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SimonMarcelLinden\\LaravelMetaTags\\LaravelMetaTagsServiceProvider"
+                "SimonMarcelLinden\\LaravelMetaTags\\MetaTagsServiceProvider"
             ],
             "aliases": {
                 "MetaTag": "SimonMarcelLinden\\LaravelMetaTags\\Facades\\MetaTag"
