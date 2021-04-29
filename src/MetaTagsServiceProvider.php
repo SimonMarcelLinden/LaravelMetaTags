@@ -4,7 +4,7 @@ namespace SimonMarcelLinden\LaravelMetaTags;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelMetaTagsServiceProvider extends ServiceProvider {
+class MetaTagsServiceProvider extends ServiceProvider {
     /**
      * Perform post-registration booting of services.
      *
@@ -29,7 +29,7 @@ class LaravelMetaTagsServiceProvider extends ServiceProvider {
         $this->app->singleton('metatag', function ($app) {
             return new MetaTag(
                 $app['request'],
-                $app['config']['meta-tags'],
+                $app['config']['metatags'],
                 $app['config']->get('app.locale')
             );
         });
