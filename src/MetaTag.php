@@ -2,7 +2,6 @@
 
 namespace SimonMarcelLinden\LaravelMetaTags;
 
-class LaravelMetaTags
-{
+class MetaTag {
     // Build wonderful things
 }
