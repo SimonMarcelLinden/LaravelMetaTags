@@ -2,6 +2,16 @@
 
 namespace SimonMarcelLinden\LaravelMetaTags;
 
+use Illuminate\Http\Request;
+
 class MetaTag {
-    // Build wonderful things
+
+    /**
+     * @param Request $request
+     * @param array $config
+     * @param string $defaultLocale
+     */
+    public function __construct(Request $request, array $config, string $defaultLocale) {
+
+    }
 }

@@ -27,7 +27,11 @@ class LaravelMetaTagsServiceProvider extends ServiceProvider {
 
         // Register the service the package provides.
         $this->app->singleton('metatag', function ($app) {
-            return new MetaTag;
+            return new MetaTag(
+                $app['request'],
+                $app['config']['meta-tags'],
+                $app['config']->get('app.locale')
+            );
         });
     }
 
