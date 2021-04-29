@@ -1,7 +1,7 @@
 {
     "name": "simonmarcellinden/laravelmetatags",
-    "description": "",
-    "license": "license",
+    "description": "With this package you can manage header Meta Tags from Laravel controllers.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Simon Marcel Linden",
