@@ -6,7 +6,7 @@ return [
      * Site default base title
      ******************************************
      */
-    'baseTitle' => env('APP_NAME', 'Laravel'),
+    'title' => env('APP_NAME', 'Laravel'),
     /*
      ******************************************
      * Title separator when concatenated
