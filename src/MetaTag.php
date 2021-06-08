@@ -60,7 +60,7 @@ class MetaTag {
      * @return string
      */
     private function setTitle( $title ) {
-        $baseTitle = $this->config['baseTitle'];
+        $baseTitle = $this->config['title'];
 
         $title = $baseTitle.' '.$this->config['title_tab'].' '.$title;
         $title = substr($title, 0, ($this->config['title_limit']));
